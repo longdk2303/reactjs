@@ -1,0 +1,49 @@
+@import "./base.css";
+html,
+body {
+  margin: 0;
+}
+
+* {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: var(--main-color);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.btn-hover_red:hover {
+  background-color: #ff3048 !important;
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #fff;
+}
+
+input[type="email"]:hover,
+input[type="email"]:focus,
+input[type="text"]:hover,
+input[type="text"]:focus {
+  border: 1px solid #45aaf2 !important ;
+}
+
+a:hover {
+  color: #ff3f34;
+  cursor: pointer;
+  transition: all 0.3s;
+}

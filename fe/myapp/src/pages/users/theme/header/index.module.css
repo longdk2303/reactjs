@@ -1,0 +1,54 @@
+.list {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  list-style: none;
+  padding: 32px 15px;
+}
+
+.navLink {
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.item:hover .navLink {
+  color: #ff3f34;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 85px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.right i {
+  font-size: 30px;
+  padding: 12px;
+  transition: all 0.3s;
+}
+
+.right i:hover {
+  cursor: pointer;
+  background-color: #d2dae2;
+  transform: scale(1.2, 1.2);
+}
